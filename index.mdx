@@ -22,16 +22,16 @@ Here's everything new thats going to catch your eye.
 
 <AccordionGroup>
   <Accordion title="Cold Calling (with phone numbers)" iconType="regular">
-    Mission Control previously presented a list of email addresses to paste into **ZoomInfo (no longer in use) **which then returned a list of cell/phone matches to dial.
+    Mission Control previously presented a list of email addresses to paste into \*\*ZoomInfo (no longer in use) \*\*which then returned a list of cell/phone matches to dial.
 
     Now Mission Control does all of this directly in the CRM. As a final attempt (after sending your followup), you can select Send LinkedIn Messages (LINK) or Make Cold Calls.
 
-    ![image.png](/images/image.png)
+    ![Screenshot2025 05 27at21 32 23 Pn](/images/Screenshot2025-05-27at21.32.23.png)
 
-    When clicking Make Cold Calls, a countdown timer appears. For some reason, it takes [**Apollo.io**](http://Apollo.io)** **some time to return the phone numbers and assign them to the contact. 
+    When clicking Make Cold Calls, a countdown timer appears. For some reason, it takes [**Apollo.io**](http://Apollo.io)\*\* \*\*some time to return the phone numbers and assign them to the contact.
 
     <Tip>
-      Although the phone numbers are avaliable instantly via the **Apollo **plugin, the API takes some time to return bulk numbers. These are usually returned within 5 minutes (hence the countdown timer) but sometimes it can take longer for some to filter through.
+      Although the phone numbers are avaliable instantly via the \*\*Apollo \*\*plugin, the API takes some time to return bulk numbers. These are usually returned within 5 minutes (hence the countdown timer) but sometimes it can take longer for some to filter through.
     </Tip>
     ![Screenshot2025 05 27at21 32 47 Pn](/images/Screenshot2025-05-27at21.32.47.png)
 
@@ -42,42 +42,78 @@ Here's everything new thats going to catch your eye.
     </Note>
     ![Screenshot2025 05 27at21 37 17 Pn](/images/Screenshot2025-05-27at21.37.17.png)
 
-    Here you see how many numbers have been returned. You also have counters for No Answer, Not Interested and Interested. 
+    Here you see how many numbers have been returned. You also have counters for No Answer, Not Interested and Interested.
 
     Here you have several options:
 
-    - **Resend Email: **resends the original email to the client, instantly.
-    - **Didn't Answer: **marks and skips to the next contact. Logs on profile.
-    - **Not Interested: **marks and skips to the next contact. Logs on profile.
-    - **Interested: **opens an opportunity (LINK) and allows you to continue in a new tab. Here you can add vacancy notes / general notes about the call.
+    - \*\*Resend Email: \*\*resends the original email to the client, instantly.
+    - \*\*Didn't Answer: \*\*marks and skips to the next contact. Logs on profile.
+    - \*\*Not Interested: \*\*marks and skips to the next contact. Logs on profile.
+    - \*\*Interested: \*\*opens an opportunity (LINK) and allows you to continue in a new tab. Here you can add vacancy notes / general notes about the call.
 
-    You will also see **View Full Profile. **This opens the profile in a new tab so you do not lose your progress on the cold calling wizard.
+    You will also see \*\*View Full Profile. \*\*This opens the profile in a new tab so you do not lose your progress on the cold calling wizard.
 
     <Warning>
-      We know that sometimes [**Apollo.io**](http://Apollo.io)** **will return the incorrect phone numbers. Sometimes it also returns more than once. Unfortuantely this is outside of our control as this is an external data source. Just skip and move on.
+      We know that sometimes [**Apollo.io**](http://Apollo.io)\*\* \*\*will return the incorrect phone numbers. Sometimes it also returns more than once. Unfortuantely this is outside of our control as this is an external data source. Just skip and move on.
     </Warning>
   </Accordion>
-  <Accordion title="Preview changes" icon="rectangle-terminal">
-    Previewing helps you make sure your changes look 
+  <Accordion title="Format CVs ">
+    <Warning>
+      
 
-    as intended. We built a
-    command line interface to render these changes locally.
+      It's really important we don't send CVs with contact information on them. These get caught up in all kinds of email filters and cause a nuisance. If the CV formatter leaves contact 
 
-    1. Install the
-       [Mintlify CLI](https://www.npmjs.com/package/mintlify) to preview the
-       documentation changes locally with this command: `npm i -g mintlify`
-    2. Run the following command at the root of your documentation (where
-       `docs.json` is): `mintlify dev`
+      information on, please manually edit by converting the download to a word document (right click, Open with Word). 
+    </Warning>
+    The CV formatter is pretty bang on. Sometimes it does miss information. It's impossible to get every variation of CV correct.
 
-    <Note>
-      If you’re currently using the legacy `mint.json` configuration file, please update the Mintlify CLI:
+    <Warning>
+      Formatting a CV does not automatically log it in your CV tracker. You should do this manually after sending each CV as data on CV sends is shared with Illumini (our backdoor partner). 
+    </Warning>
+    To get started, go to the main menu and select **New CV Format. **The candidate must already be in the CRM to do format the CV. At this stage, it doesn't matter if the CV is uploaded or not.
 
-      `npm i -g mintlify@latest`
-      And run the new upgrade command in your docs repository:
+    <img
+      src="/images/Screenshot2025-05-27at21.49.56.png"
+      alt="Screenshot2025 05 27at21 49 56 Pn"
+      title="Screenshot2025 05 27at21 49 56 Pn"
+      style={{ width:"100%" }}
+    />
 
-      `mintlify upgrade`
-      You should now be using the new `docs.json` configuration file. Feel free to delete the `mint.json` file from your repository.
-    </Note>
+    Select the contact from the search results and you should be presented with a list of CVs on file (sometimes shown as external files). If no CVs return, you have the option to upload one. If the wrong CV returns, you should navigate to the candidates profile and upload a new file to continue. 
+
+    ![Screenshot2025 05 27at21 51 11 Pn](/images/Screenshot2025-05-27at21.51.11.png)
+
+    Once selecting the CV, you will be prompted to enter some information about the candidate. This varies from company to company.
+
+    <Tip>
+      You should ask your manager or the beta tester within your business which information appears on your CV format cover sheets.
+    </Tip>
+    <Warning>
+      CV cover sheets cannot be customised to individuals. These are generic for the whole organisation. The only person who can request changes to a cover sheet are Directors and this will usually be processed within a week.
+    </Warning>
+
+    ![Screenshot2025 05 27at21 53 20 Pn](/images/Screenshot2025-05-27at21.53.20.png)
+
+    You should enter the relevant information and click '**Generate CV format'. **Once the generation has started, the process shouldnt take more than a few seconds.
+
+    ![Screenshot2025 05 27at21 54 05 Pn](/images/Screenshot2025-05-27at21.54.05.png)
+
+    The orb window will appear with a progression dialog. Once the CV is created, you will be prompted with a new window.
+
+    <Warning>
+      Sometimes CVs can take longer to process. It depends on the document size and current traffic on the service. Even if the CV doesnt complete within the dialog, it will automatically be attached to the candidates profile when it is.
+    </Warning>
+    Once completed, you will be alerted and you can open the CV or process another.
+
+    ![image.png](/images/image.png)
+
+    <Warning>
+      Errors on CVs should be reported via the Feedback app.
+    </Warning>
+    This CV will now be avaliable for download and attached to the candidates profile within the CRM. You should see a copy of the original and the processed document.
+  </Accordion>
+  <Accordion title="New Accordion">
+    
   </Accordion>
 </AccordionGroup>
 
