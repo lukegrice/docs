@@ -3,8 +3,8 @@
   "theme": "mint",
   "name": "Mission Control",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
+    "primary": "#008ef3",
+    "light": "#f0fcff",
     "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
